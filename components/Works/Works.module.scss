@@ -1,0 +1,97 @@
+.container{
+    width: 80%;
+margin: auto;
+margin-top: 5rem;
+padding: 1rem;
+box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+border-radius: 15px;
+.minicontainer{
+    width: 80%;
+    margin: auto;
+    
+    .heading{
+        text-align: center;
+        .title {
+            font-size: 50px;
+            color: #32236f;
+            font-weight: 700;
+            span {
+              color: #6a49f2;
+            }
+          }
+          .minititle {
+            width: 60%;
+           margin: auto;
+           margin-top: -1rem;
+            color: #767694;
+          }
+    }
+}
+.steps{
+    margin-top: 2rem;
+    .step{
+        display: flex;
+        gap: 2rem;
+        margin-top: 2rem;
+        align-items: center;
+        .stepInfoL{
+            line-height: 1.9rem;
+            color: #3e3f66 ;
+            text-align: right;
+            .stepsTitle{
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 0rem;
+            }
+            .steptrial{
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 0rem;
+                a{
+                    color: blue;
+                    text-decoration: dashed;
+                }
+            }
+            .stepsdesc{
+                position: relative;
+                // left: 5rem;            
+                // width: 80%;
+            }
+            .stepcnt{
+                margin: 2rem !important;
+                
+            }
+            .cnt{
+                font-size: 40px;
+                color: black;
+                font-weight: 700;
+                position: relative;
+                left: 7rem;
+                top: 1rem;
+            
+         
+            }
+        }
+        .stepInfoR{
+            color: #3e3f66 ;
+            text-align: left;
+            .stepsTitle{
+                font-size: 20px;
+                font-weight: 600;
+                margin-bottom: 0rem;
+            }
+            .steptrial{
+                font-size: 16px;
+                font-weight: 600;
+                margin-bottom: 0rem;
+            }
+            .stepsdesc{
+                width: 95%;
+            }
+            .stepcnt{
+                margin: 2rem;
+            }
+        }
+    }
+}
+}

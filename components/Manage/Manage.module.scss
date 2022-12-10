@@ -1,0 +1,104 @@
+@import "/styles/variables.scss";
+.container {
+  background-color: white;
+  margin: auto;
+  .minicontainer {
+    width: 90%;
+    display: flex;
+    gap: 1rem;
+    padding: 10rem;
+    .left {
+      width: 50%;
+      border: 1px solid red;
+      padding: 0.5rem;
+// align-items: center;
+.title {
+        font-size: 50px;
+        color: #32236f;
+        font-weight: 700;
+        span {
+          color: #6a49f2;
+        }
+      }
+      .minititle {
+        color: #767694;
+      }
+      .btn {
+        display: flex;
+        gap: 2rem;
+        Button {
+          border: 3px solid #6a49f2;
+          border-radius: 10px;
+          .hide {
+            display: none;
+          }
+        }:hover{
+            background-color:#6a49f2 ;
+            .show{
+                display: none; 
+            }
+            .hide{
+               
+                display: block;
+            }
+        }
+      }
+
+      .count{
+        margin-top: 2rem;
+        display: flex;
+        align-items: center;
+       .used{
+        line-height: 0.2rem;
+        margin-top: 1rem;
+       p{
+        font-size: 15px;
+       }
+       }
+      }
+    }
+    .right {
+      width: 50%;
+      border: 1px solid red;
+      .circle{
+        margin: auto;
+        border: 1px solid #6a49f2;
+        width: 70%;
+        border-radius: 50%;
+        height: 350px;
+        background-color:#6a49f2 ;
+        position: relative;
+        .msg{
+            position: relative;
+            top: 15rem;
+            right: 1.5rem;
+            z-index: 1;
+        }
+        .security{
+            position: relative;
+            bottom: 1rem;
+            left: 7rem;
+        }
+        .frame{
+            position: relative;
+            bottom: 40rem;
+            left: 4.5rem;
+        }
+        .screen{
+            position: relative;
+            bottom: 10rem;
+            left: 5rem;
+        }
+      }
+    }
+  }
+  .banner{
+     border: 1px solid red;
+    // background-image: url('http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/banner-shape.svg');
+    // background: no-repeat;
+    width: 100%;
+    // height: 500px;
+    // background: #d3d0de ;
+    margin-top: -10rem;
+  }
+}

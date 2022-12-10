@@ -1,0 +1,33 @@
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 1rem;
+    .minicontainer{
+        // width: 80%;
+        margin: auto;
+        .heading{
+            text-align: center;
+            .title {
+                font-size: 50px;
+                color: #32236f;
+                font-weight: 700;
+                span {
+                  color: #6a49f2;
+                }
+              }
+              .minititle {
+                width: 60%;
+               margin: auto;
+               margin-top: -1rem;
+                color: #767694;
+              }
+        }
+        .customers{
+           background-image: url('http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/avtar_testimonial.png');
+           background-repeat: no-repeat;
+           height: 500px;
+           width: 100%;
+        }
+    } 
+}

@@ -1,0 +1,90 @@
+.container {
+  width: 80%;
+  margin-top: 6rem !important;
+  margin: auto;
+  .minicontainer {
+    display: flex;
+    gap: 2.5rem;
+   
+    .imgwraaper {
+        // border: 2px solid #bebcc6;
+        height: 460px;
+        background: #e5e5e7;
+        width: 50%;
+        border-radius: 50%;
+        .aboutframe{
+            position: relative;
+            top: -3rem;
+            left: 2.5rem;
+        }
+        .aboutscreen{
+            position: relative;
+            top: 1rem;
+            left: -1rem;
+        }
+    }
+    .aboutApp {
+        width: 70%;
+      .heading {
+        .title {
+          font-size: 50px;
+          color: #32236f;
+          font-weight: 700;
+          span {
+            color: #6a49f2;
+          }
+        }
+        .minititle {
+          //     width: 37%;
+          //    margin: auto;
+          margin-top: -1rem;
+          color: #767694;
+        }
+      }
+    }
+    .count {
+      display: flex;
+      gap: 2rem;
+      width: 70%;
+      align-items: left;
+      flex-wrap: wrap;
+      .countdetail {
+        box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        border-radius: 10px;
+        width: fit-content;
+           padding: 1.5rem;
+        display: flex;
+        gap: 0.5rem;
+        align-items: center;
+        color: #32236f;
+        .cntinfo{
+            text-align: left;
+            line-height: 0rem;
+            .cnt {
+                font-size: 40px;
+                font-weight: 600;
+              }
+              .cnttitle {
+                  font-size: 16px;
+              }
+        }
+        
+      }
+      .btn{
+        background-color: 
+        #6a49f2 ;
+        border-radius: 10px;
+        color: white;
+        font-weight: 600;
+border: #6a49f2;
+        padding: 0.5rem 1rem 0.5rem 1rem;
+&:hover{
+    color: #6a49f2;
+    background: white;
+    border: 2px solid #6a49f2;
+}
+    }
+    }
+  
+  }
+}

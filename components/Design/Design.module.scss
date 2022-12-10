@@ -1,0 +1,72 @@
+.container{
+width: 80%;
+margin: auto;
+margin-top: 5rem;
+    .minicontainer{
+       display: flex;
+       gap: 1.5rem;
+       .designInfo{
+        width: 50%;
+        .heading{
+            .title {
+                font-size: 50px;
+                color: #32236f;
+                font-weight: 700;
+                span {
+                  color: #6a49f2;
+                }
+              }
+              .minititle {
+                width: 75%;
+            //    margin: auto;
+               margin-top: -1rem;
+                color: #767694;
+              }
+        }
+        .description{
+            .desc{
+                margin-top: 2rem;
+                display: flex;
+                align-items: center;
+                gap: 1rem;
+                .designTitle{
+                    font-size: 20px;
+                    font-weight: 600;
+                    color: #32236f;
+                    margin-bottom: 0rem;
+                          }
+                          .designdesc{
+                              width: 72%;
+                              font-weight: 500;
+                              font-size: 16px;
+                              color: #404043;
+                            
+                          }
+            }
+       
+        }
+       }
+       .imgwraaper{
+        height: 540px;
+        background: #e5e5e7;
+        width: 50%;
+        border-radius: 50%;
+        margin-top: 5rem;
+        .secure{
+            position: relative;
+            bottom: 10rem;
+        }
+        .modern{
+            position: relative;
+    bottom: 14rem;
+    left: -3rem
+        }
+        .small{
+            bottom: 23rem;
+            left: 18rem;
+            position: relative;
+
+        }
+       }
+    }
+}
