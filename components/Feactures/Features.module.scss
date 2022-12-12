@@ -1,70 +1,120 @@
-.container{
-    margin-top: 5rem;
-    text-align: center;
-    .heading{
-        .title {
-            font-size: 40px;
-            color: #32236f;
-            font-weight: 800;
-            span {
-              color: #6a49f2;
-            }
-          }
-          .minititle {
-            width: 37%;
-           margin: auto;
-           margin-top: -1rem;
-            color: #767694;
-          }
+@import "/styles/variables.scss";
+
+.container {
+  margin-top: 5rem;
+  text-align: center;
+
+  @media screen and (max-width: $mobileResolution) {
+    position: relative;
+    top: 20rem;
+  }
+
+  .heading {
+    .title {
+      font-size: 40px;
+      color: #32236f;
+      font-weight: 800;
+
+      span {
+        color: #6a49f2;
+      }
+
+      @media screen and (max-width: $mobileResolution) {
+        font-size: 24px;
+      }
     }
-    .info{
-        width: 80%;
-        margin-top: 3rem !important;
-        height:500px;
-        margin: auto;
-        box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
-        .feacturesinfo{
-            display: flex;
-            // border: 1px solid red;
-           gap: 1rem;    
-           .leftinfo{
-            padding: 1rem;
-            .data{
-                width: 70%;
-                text-align: right;
-             .infotitle{
-                 margin-top: -1rem;
-                 font-size: 20px;
-                 color: 
-                 #32236f ;
-                 font-weight: 600;
-             }
-             .infodisc{
-                    margin-top: -1rem;  
-                 color: #434353;
-             }
-            }
-           }
-          .rightinfo{
-            padding: 1rem;
-            .data{
-                width: 70%;
-                text-align: left;
-                line-height: 1.5rem;
-             .infotitle{
-                margin-top: -0.5rem;
-                 font-size: 20px;
-                 color: 
-                 #32236f ;
-                 font-weight: 600;
-             }
-             .infodisc{
-                    margin-top: -1rem;
-                 
-                 color: #434353;
-             }
-            }
+
+    .minititle {
+      width: 37%;
+      margin: auto;
+      margin-top: -1rem;
+      color: #767694;
+
+      @media screen and (max-width: $mobileResolution) {
+        width: 90%;
+        margin-top: 0.5rem;
+      }
+    }
+  }
+
+  .info {
+    width: 80%;
+    margin-top: 3rem !important;
+    // height: 500px;
+    margin: auto;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+ border-radius: 15px;
+    .feacturesinfo {
+      display: flex;
+      // border: 1px solid red;
+      gap: 1rem;
+
+      @media screen and (max-width: $mobileResolution) {
+        flex-direction: column-reverse;
+      }
+      .imgwrapper{
+        @media screen and (max-width: $mobileResolution) {
+         
+        }
+      }
+
+      .leftinfo {
+        padding: 1rem;
+
+        .data {
+          width: 70%;
+          text-align: right;
+          @media screen and (max-width: $mobileResolution){
+            width: 100%;
+            text-align: center;
+          }
+          .infotitle {
+            margin-top: -1rem;
+            font-size: 20px;
+            color:
+              #32236f;
+            font-weight: 600;
+          }
+
+          .infodisc {
+            margin-top: -1rem;
+            color: #434353;
           }
         }
+        @media screen and (max-width: $mobileResolution) {
+          text-align: center;
+        }
+      }
+
+      .rightinfo {
+        padding: 1rem;
+
+        .data {
+          width: 70%;
+          text-align: left;
+          line-height: 1.5rem;
+          @media screen and (max-width: $mobileResolution){
+            width: 100%;
+            text-align: center;
+          }
+          .infotitle {
+            margin-top: -0.5rem;
+            font-size: 20px;
+            color:
+              #32236f;
+            font-weight: 600;
+          }
+
+          .infodisc {
+            margin-top: -1rem;
+
+            color: #434353;
+          }
+        }
+        @media screen and (max-width: $mobileResolution) {
+          text-align: center;
+        }
+      }
     }
+  }
 }

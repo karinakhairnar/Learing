@@ -13,7 +13,7 @@ $ham-menu-res: 1024px;
   top: 0;
   color: $primary;
   padding: 0.5rem 3vw;
-  border: 1px solid red;  
+ 
   background-color: white;
   @media screen and (max-width: $mobileResolution) {
     display: flex;
@@ -234,6 +234,7 @@ $ham-menu-res: 1024px;
   @media screen and (max-width: $mobileResolution) {
     width: 100px;
     height: 29px;
+    position: absolute;
   }
 }
 

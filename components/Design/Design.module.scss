@@ -1,7 +1,12 @@
+@import "/styles/variables.scss";
 .container{
 width: 80%;
 margin: auto;
 margin-top: 5rem;
+@media screen and (max-width: $mobileResolution){
+    position: relative;
+    top: 20rem;
+  }
     .minicontainer{
        display: flex;
        gap: 1.5rem;
@@ -15,12 +20,19 @@ margin-top: 5rem;
                 span {
                   color: #6a49f2;
                 }
+                @media screen and (max-width: $mobileResolution) {
+                    font-size: 24px;
+                  }
               }
               .minititle {
                 width: 75%;
             //    margin: auto;
                margin-top: -1rem;
                 color: #767694;
+                @media screen and (max-width: $mobileResolution) {
+                    width: 90%;
+                    margin-top: 0.5rem;
+                  }
               }
         }
         .description{
