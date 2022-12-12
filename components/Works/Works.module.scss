@@ -1,3 +1,4 @@
+@import "/styles/variables.scss";
 .container{
     width: 80%;
 margin: auto;
@@ -5,6 +6,10 @@ margin-top: 5rem;
 padding: 1rem;
 box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
 border-radius: 15px;
+@media screen and (max-width: $mobileResolution) {
+    position: relative;
+    // top: 8rem;
+  }
 .minicontainer{
     width: 80%;
     margin: auto;
@@ -18,12 +23,19 @@ border-radius: 15px;
             span {
               color: #6a49f2;
             }
+            @media screen and (max-width: $mobileResolution) {
+                font-size: 24px;
+              }
           }
           .minititle {
             width: 60%;
            margin: auto;
            margin-top: -1rem;
             color: #767694;
+            @media screen and (max-width: $mobileResolution) {
+                width: 100%;
+                margin-top: 0.5rem;
+              }
           }
     }
 }
@@ -34,14 +46,26 @@ border-radius: 15px;
         gap: 2rem;
         margin-top: 2rem;
         align-items: center;
+        @media screen and (max-width: $mobileResolution) {
+           display: block;
+        // flex-direction: column-reverse;
+          }
         .stepInfoL{
             line-height: 1.9rem;
             color: #3e3f66 ;
             text-align: right;
+            @media screen and (max-width: $mobileResolution) {
+                text-align: center;
+                line-height: 1rem;
+            }
             .stepsTitle{
                 font-size: 20px;
                 font-weight: 600;
                 margin-bottom: 0rem;
+                @media screen and (max-width: $mobileResolution) {
+                    font-size: 18px;
+                    text-align: center;
+                }
             }
             .steptrial{
                 font-size: 16px;
@@ -59,7 +83,12 @@ border-radius: 15px;
             }
             .stepcnt{
                 margin: 2rem !important;
-                
+                @media screen and (max-width: $mobileResolution) {
+                    // position: relative;
+                    // top: 2rem;
+                    // width: 20%;
+                    display: none;
+                }
             }
             .cnt{
                 font-size: 40px;
@@ -75,10 +104,18 @@ border-radius: 15px;
         .stepInfoR{
             color: #3e3f66 ;
             text-align: left;
+            @media screen and (max-width: $mobileResolution) {
+                // font-size: 18px;
+                text-align: center;
+            }
             .stepsTitle{
                 font-size: 20px;
                 font-weight: 600;
                 margin-bottom: 0rem;
+                @media screen and (max-width: $mobileResolution) {
+                    font-size: 18px;
+                    text-align: center;
+                }
             }
             .steptrial{
                 font-size: 16px;
@@ -88,8 +125,22 @@ border-radius: 15px;
             .stepsdesc{
                 width: 95%;
             }
+            // .stepImg{
+            //    .img{
+            //     width: 100% !important;
+            //     @media screen and (max-width: $mobileResolution){
+            //         width: 100% !important;
+            //     }
+            //    }
+            // }
             .stepcnt{
                 margin: 2rem;
+                @media screen and (max-width: $mobileResolution) {
+                    // position: relative;
+                    // top: 2rem;
+                    // width: 20%;
+                    display: none;
+                }
             }
         }
     }

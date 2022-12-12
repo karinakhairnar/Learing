@@ -1,8 +1,15 @@
+@import "/styles/variables.scss";
 .container{
     width: 80%;
     margin: auto;
     margin-top: 5rem;
     padding: 1rem;
+    height: fit-content;
+    @media screen and (max-width: $mobileResolution) {
+      position: relative;
+      width: 100%;
+      // top: 8rem;
+    }
     .minicontainer{
         // width: 80%;
         margin: auto;
@@ -15,12 +22,19 @@
                 span {
                   color: #6a49f2;
                 }
+                @media screen and (max-width: $mobileResolution) {
+                  font-size: 24px;
+                }
               }
               .minititle {
                 width: 60%;
                margin: auto;
                margin-top: -1rem;
                 color: #767694;
+                @media screen and (max-width: $mobileResolution) {
+                  width: 100%;
+                  margin-top: 0.5rem;
+                }
               }
         }
         .customers{

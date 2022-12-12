@@ -105,7 +105,7 @@
           z-index: 1;
           @media screen and (max-width: $mobileResolution){
             top: 22rem;
-            left:-4rem;
+            left:-3rem;
           }
         }
         .security {
@@ -114,7 +114,7 @@
           left: 7rem;
           @media screen and (max-width: $mobileResolution) {
             z-index: 1;
-            left: 10rem;
+            left: 12rem;
             top: -4rem;
           }
         }
@@ -124,7 +124,7 @@
           left: 4.5rem;
           @media screen and (max-width: $mobileResolution) {
             bottom: 45rem;
-            left: 0rem;
+            left: 2rem;
           }
         }
         .screen {
@@ -133,7 +133,7 @@
           left: 5rem;
           @media screen and (max-width: $mobileResolution) {
             bottom: 15rem;
-            left: 0.6rem;
+            left: 2.4rem;
           }
         }
         @media screen and (max-width: $mobileResolution){
@@ -158,9 +158,9 @@
     // background: #d3d0de ;
     margin-top: -10rem;
     @media screen and (max-width: $mobileResolution){
-      // display: none;
-      position: relative;
-      top: 22rem;
+      display: none;
+      // position: relative;
+      // top: 22rem;
 
     }
   }

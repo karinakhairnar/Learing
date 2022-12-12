@@ -43,7 +43,6 @@ const Header: FC<Props> = ({ hideMenu }) => {
               <img
                 src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/logo.png"
                 alt="logo"
-                layout="fill"
               />
             </a>
           </Link>

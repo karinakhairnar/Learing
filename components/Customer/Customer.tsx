@@ -13,9 +13,9 @@ const Customer = () => {
             indus orem Ipsum has beenthe standard dummy.
           </p>
         </div>
-        <div className={s.customers}>
+        {/* <div className={s.customers}> */}
             {/* <img src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/avtar_testimonial.png" alt="" /> */}
-        </div>
+        {/* </div> */}
       </div>
     </div>
   );

@@ -30,16 +30,17 @@ const Works = () => {
                 Download App either for Windows, Mac or Android
               </p>
             </div>
-            <div className={s.stepcnt}>
+            {/* <div className={s.stepcnt}>
               <img
                 src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/icon_bg.png"
                 alt=""
               />
-            </div>
+            </div> */}
             <div className={s.stepImg}>
               <img
                 src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/download_app.jpg"
                 alt=""
+                width='100%'
               />
             </div>
           </div>
@@ -47,15 +48,15 @@ const Works = () => {
             <div className={s.stepImg}>
               <img
                 src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/create_account.jpg"
-                alt=""
+                alt="" width='100%'
               />
             </div>
-            <div className={s.stepcnt}>
+            {/* <div className={s.stepcnt}>
               <img
                 src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/icon_bg.png"
                 alt=""
               />
-            </div>
+            </div> */}
             <div className={s.stepInfoR}>
               <p className={s.stepsTitle}>Create account</p>
               {/* <div className={s.imgwrapper}>
@@ -91,16 +92,16 @@ const Works = () => {
               </p>
             </div>
             {/* <p className={s.cnt}>03</p> */}
-            <div className={s.stepcnt}>
+            {/* <div className={s.stepcnt}>
               <img
                 src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/icon_bg.png"
                 alt=""
               />
-            </div>
+            </div> */}
             <div className={s.stepImg}>
               <img
                 src="http://kalanidhithemes.com/live-preview/landing-page/apper/all-demo/01-app-landing-page-defoult/images/enjoy_app.jpg"
-                alt=""
+                alt="" width='100%'
               />
             </div>
           </div>
