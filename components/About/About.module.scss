@@ -81,7 +81,7 @@ $ham-menu-res: 1024px;
       @media screen and (max-width: $mobileResolution){
         display: grid;
         grid-template-columns: repeat(2,1fr);
-        gap: 0.5rem;
+        gap: 1rem;
       }
       .countdetail {
         box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
